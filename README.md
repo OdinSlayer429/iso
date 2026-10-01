@@ -56,7 +56,7 @@ python3 data/generate_dataset.py
 
 # run the zkVM guest program
 cd circuit/script
-cargo run --release --bin fairness -- --execute --batch ../data/fair_batch.csv --threshold-bps 1000
+cargo run --release --bin fairness -- --execute --batch ../../data/fair_batch.csv --threshold-bps 1000
 
 # run the Foundry tests
 cd circuit/contracts
