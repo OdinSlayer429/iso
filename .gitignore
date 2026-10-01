@@ -1,0 +1,17 @@
+# secrets — never commit
+.env
+.env.*
+*.key
+*.pem
+*password*
+
+# internal working notes, not part of the submission
+CLAUDE.md
+
+# build artifacts
+target/
+broadcast/
+cache/
+out/
+node_modules/
+dist/
